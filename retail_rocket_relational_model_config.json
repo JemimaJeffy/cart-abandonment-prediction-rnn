@@ -1,0 +1,25 @@
+{
+    "MODEL_TYPE": "Relational_RNN_RetailRocket",
+    "MAX_SEQ_LEN": 25,
+    "RELATIONAL_NUM_FEATURES": 9,
+    "EVENT_MAP": {
+        "view": 0,
+        "addtocart": 1
+    },
+    "REL_FT_INDICES": {
+        "F_EVENT_CODE_VIEW": 0,
+        "F_EVENT_CODE_ADDTOCART": 1,
+        "F_TIME_SINCE_LAST_EVENT": 2,
+        "F_ITEM_AVAILABLE_AT_EVENT": 3,
+        "F_VIEWED_THEN_ADDED_SAME_ITEM": 4,
+        "F_SAME_CATEGORY_AS_LAST_ITEM_INTERACTION": 5,
+        "F_SAME_ITEM_AS_LAST_ITEM_INTERACTION": 6,
+        "F_ITEMS_IN_CART_SO_FAR": 7,
+        "F_DISTINCT_CATEGORIES_IN_CART_SO_FAR": 8
+    },
+    "REL_FT_NUMERICAL_INDICES": [
+        2,
+        7,
+        8
+    ]
+}
